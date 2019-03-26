@@ -1,0 +1,43 @@
+/* //////////////////////////////////////////////////////// header section*/
+@media only screen and (max-width: 375px) {
+    .application-image {
+      width: 18rem;
+  }  
+
+
+    .img-container{
+      display:grid;
+      grid-template-rows: repeat(2 ,1fr);
+
+    }  
+
+    .header-container {
+      margin-top: 1rem;
+      align-self: end;
+    }
+    
+    .header {
+      margin-bottom:0rem;
+      font-weight: 400;
+      font-size: 1.5rem;
+      letter-spacing: 9px;
+    }
+  
+    .header-medium {
+       font-size: 1.5rem;
+    }
+
+    .sub-header-container {
+      display: grid;
+  }
+  }
+  
+
+
+  @media only screen and (max-width: 320px) {
+    /* //////////////////////////////////////////////////////// header section*/
+    
+    .what-to-learn-container li {
+      font-size: 0.9rem;
+  }
+  }

@@ -1,0 +1,156 @@
+@media only screen and (max-width: 761px) {
+  /* body{background:blue;} */
+
+  /* ///////////////////////////////////////////////// HEADER SECTION */
+
+  /* ///////////////////////////////////////////////// HEADER SECTION */
+
+  /* //////////////////////////////////////////////////////// INFO SECTION */
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 2rem 2rem;
+    padding: 0px;
+  }
+
+  .application-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .application-container > div {
+    justify-self: center;
+    max-width: none;
+    /* text-align: center; */
+  }
+
+  /* //////////////////////////////////////////////////////// INFO SECTION */
+
+  /* ///////////////////////////////////////////////////////// WHAT IS IT ABOUT */
+
+  .service-body p {
+    max-width: none;
+    /* max-width: 15rem; */
+    /* grid-template-columns: 1fr; */
+  }
+
+  /* ///////////////////////////////////////////////////////// WHAT IS IT ABOUT */
+
+  /* ///////////////////////////////////////////////////// WHAT WILL YOU LEARN */
+  .what-to-learn-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .what-to-learn-container > div {
+    justify-self: none;
+  }
+
+  .what-to-learn-container p {
+    margin-left: 1rem;
+  }
+
+  .application-image {
+    height: auto;
+    justify-self: center;
+    width: 30rem;
+  }
+  /* ///////////////////////////////////////////////////// WHAT WILL YOU LEARN */
+
+  /* ///////////////////////////////////////////////////// MEET THE MENTORS */
+
+  .mentor-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  /* ///////////////////////////////////////////////////// MEET THE MENTORS */
+
+  /* ///////////////////////////////////////////////////// STAY IN TOUCH*/
+
+  .stay-in-touch-container {
+  }
+
+  .touch-2-col-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .stay-in-touch-container form {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* ///////////////////////////////////////////////////// STAY IN TOUCH */
+}
+
+/* /////////////////////////////////////////////////////////// IPAD */
+@media only screen and (max-width: 1024px) {
+  /* .sub-header-container {
+    display: grid;
+    margin-top: -20rem;
+  } */
+
+  .sub-header-container {
+
+  }
+
+  .header-container {
+    margin: 0rem;
+  }
+
+  .mentor-section h1 {
+    line-height: 3rem;
+  }
+
+
+  .learn-side-1 > div {
+    margin-left:2rem;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .sub-header-container {
+    display: grid;
+  }
+
+  /* ///////////////////////////////////////////////header */
+
+
+  .btn-apply {
+    align-self: start;
+    margin:1rem;
+}
+
+  /* ///////////////////////////////////////////////header */
+
+
+  .what-to-learn-container {
+    grid-gap:4rem;  
+  }
+
+  .service-body p {
+    margin: 0.8rem;
+}
+
+  .container{
+    margin: 2rem 0px;
+  }
+
+  .header-container {
+    margin-top: 15rem;
+  }
+}
+/* //////////////////////////////////////////////////////  INFO SECTION */
+
+.white{
+  padding:0.5rem 0.1rem;
+}
+
+
+/* /////////////////////////////////////////////////////////// IPAD */

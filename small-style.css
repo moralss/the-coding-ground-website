@@ -1,0 +1,152 @@
+
+
+
+
+@media only screen and (max-width: 1000px) {
+
+    .hide {
+        display:none;
+        
+      }
+    /* ////////////////////////////////////////////////////////////////////HEADER SECTION */
+
+
+  .img-container{
+    display:grid;
+    grid-template-rows: repeat(2 , 29rem);
+  }    
+  
+
+
+.header-medium{
+    font-size:3.7rem;
+   
+  }
+  
+  .header{
+    font-size:5rem;
+    letter-spacing: 9px;  
+
+  }
+  
+
+  .sub-header-container{
+
+  }  
+  
+  .sub-header{
+    margin:0px;
+    line-height:none;
+     width: 25rem;
+    height: 1.5rem;
+    padding:1rem;
+    letter-spacing: 0.2rem;
+    font-size: 1.4rem;
+
+  }
+  
+  
+  .btn-apply{
+    width: 12rem; 
+    letter-spacing: 0.2rem;
+    justify-self: center;
+    margin-top:2rem;
+    padding:1.5rem;
+    font-size: 1rem;
+    line-height: 0rem;
+  }
+
+
+    /* ////////////////////////////////////////////////////////////////////HEADER SECTION */
+/* //////////////////////////////////////////////////////// INFO SECTION */
+
+.application-container {
+  display: grid;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  grid-template-columns: 3fr 2fr;
+  background-color: var(--light-green);
+  grid-gap: 2rem;
+  justify-content: center;
+  justify-items: center;
+}
+
+.btn-white {
+  display: block;
+  text-decoration: none;
+  width: 9rem;
+  padding:1rem;
+   padding-left: 2rem;
+  padding-right: 2rem;
+
+  margin-top:1rem;
+  font-size: 1rem;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.application-image {
+  height: auto;
+  justify-self: end;
+  width: 30rem;
+}
+
+.side-info {
+  display: grid;
+  justify-self: start;
+  text-align: left;
+  font-weight: 400;
+}
+.side-info h1 {
+  max-width: 20rem;
+  font-size: 2.5rem;
+}
+
+.side-info p {
+  font-weight: 400;
+  max-width: 20rem;
+}
+
+/* //////////////////////////////////////////////////////// INFO SECTION */
+
+  
+/* ///////////////////////////////////////////////////// WHAT WILL YOU LEARN */
+
+
+.learn-side-1 h1 {
+  line-height: 3rem;
+  margin-left:1rem;
+}
+
+.learn-side-2 {
+  display: grid;
+  justify-self: start;
+}
+
+.logo-white {
+  width: 186px;
+  height: 215px;
+  justify-self: end;
+}
+
+.what-to-learn-container .fa {
+  font-size: 1rem;
+  margin-right: 1.5rem;
+}
+
+.what-to-learn-container p {
+  max-width: 30rem;
+  margin-left:1rem;
+}
+
+/* ///////////////////////////////////////////////////// WHAT WILL YOU LEARN */
+/* meet the mentors */
+
+.mentor-header-container {
+  text-align: center;
+  color: black;
+  line-height: 3rem;
+}
+                                                                                                                                      52,1          18%
+}  
+
