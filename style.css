@@ -60,7 +60,7 @@ body {
 
 
 .img-container {
-  background-image: url("RevSlider-V1.jpg");
+  background-image: url("img/RevSlider-V1.jpg");
   background-position: center;
   display: grid;
   grid-template-rows:  repeat(1 ,16rem);
